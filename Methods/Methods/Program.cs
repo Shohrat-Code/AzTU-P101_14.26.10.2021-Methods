@@ -76,27 +76,49 @@ namespace Methods
 
             #region New Lesson
             //Power 3
-            Console.Write("Enter the number: ");
-            byte x = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Enter the number: ");
+            //byte x = Convert.ToByte(Console.ReadLine());
 
-            Console.Write("Enter the power: ");
-            byte y = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Enter the power: ");
+            //byte y = Convert.ToByte(Console.ReadLine());
 
-            int Result = Power(x, y);
+            //int Result = Power(x, y);
 
-            Console.WriteLine($"The {y} power of {x} is {Result}");
+            //Console.WriteLine($"The {y} power of {x} is {Result}");
 
-            Console.WriteLine("----------------------------");
-            //Power 5
-            Console.Write("Enter the number: ");
-            byte Number = Convert.ToByte(Console.ReadLine());
+            //Console.WriteLine("----------------------------");
+            ////Power 5
+            //Console.Write("Enter the number: ");
+            //byte Number = Convert.ToByte(Console.ReadLine());
 
-            Console.Write("Enter the power: ");
-            byte PowerValue = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Enter the power: ");
+            //byte PowerValue = Convert.ToByte(Console.ReadLine());
 
-            int Result2 = Power(Number);
+            //int Result2 = Power(Number);
 
-            Console.WriteLine($"The {PowerValue} power of {Number} is {Result2}");
+            //Console.WriteLine($"The {PowerValue} power of {Number} is {Result2}");
+
+            //int sum1 = MultipleParams(15, 29);
+            //Console.WriteLine(sum1);
+
+            //int sum2 = MultipleParams(2, 7, 35, 45);
+            //Console.WriteLine(sum2);
+
+            //int p = 4;
+            //Console.WriteLine(p);
+            //RefParam(ref p);
+            //Console.WriteLine(p);
+
+            //OutParam(out int b, out byte myAge);
+
+            //Console.WriteLine(b);
+            //Console.WriteLine(myAge);
+
+            //int Result = Power(power: 2, number: 3);
+            //Console.WriteLine(Result);
+            string Result = SumAndMulti(5, 10);
+            Console.WriteLine(Result);
+
             #endregion
         }
 
@@ -108,6 +130,37 @@ namespace Methods
                 result *= number;
             }
 
+            return result;
+        }
+
+        static int MultipleParams(params byte[] ages)
+        {
+            int sum = 0;
+            for (int i = 0; i < ages.Length; i++)
+            {
+                sum += ages[i];
+            }
+
+            return sum;
+        }
+
+        static int RefParam(ref int a)
+        {
+            return a++;
+        }
+
+        static void OutParam(out int a, out byte age)
+        {
+            a = 10;
+            a++;
+            age = 29;
+            age--;
+            //return a++;
+        }
+
+        static string SumAndMulti(int a, int b)
+        {
+            string result = $"Sum of {a} and {b} is equals to {a + b}, Multipication of {a} and {b} is {a * b}";
             return result;
         }
     }

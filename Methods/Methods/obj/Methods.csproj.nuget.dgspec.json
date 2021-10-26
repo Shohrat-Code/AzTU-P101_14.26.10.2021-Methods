@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Methods\\Methods\\Methods.csproj": {}
+    "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Codes\\Methods\\Methods\\Methods.csproj": {}
   },
   "projects": {
-    "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Methods\\Methods\\Methods.csproj": {
+    "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Codes\\Methods\\Methods\\Methods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Methods\\Methods\\Methods.csproj",
+        "projectUniqueName": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Codes\\Methods\\Methods\\Methods.csproj",
         "projectName": "Methods",
-        "projectPath": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Methods\\Methods\\Methods.csproj",
+        "projectPath": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Codes\\Methods\\Methods\\Methods.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Methods\\Methods\\obj\\",
+        "outputPath": "D:\\Code Academy\\Teaching\\AzTU-Code\\AzTU-P101\\Lessons\\14.26.10.2021-Methods\\Codes\\Methods\\Methods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
