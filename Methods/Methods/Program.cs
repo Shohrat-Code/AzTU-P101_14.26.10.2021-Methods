@@ -97,6 +97,7 @@ namespace Methods
             int Result2 = Power(Number);
 
             Console.WriteLine($"The {PowerValue} power of {Number} is {Result2}");
+            int a = 15;
             #endregion
         }
 
